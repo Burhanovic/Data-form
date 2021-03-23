@@ -36,9 +36,7 @@ function App() {
   return (
     <Switch>
       <Route exact path = "/">
-        <div className="App">
-          <h1>Welcome on Countries & Auth App!</h1>
-        </div>
+        <Auth/>
       </Route>
 
       <Route path = "/auth">
